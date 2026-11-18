@@ -1,0 +1,207 @@
+
+/* General Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5eee6;
+    text-align: center;
+}
+
+/* Header */
+
+header {
+    background-color: #4b2e20;
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation */
+
+nav {
+    background-color: #795548;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffdbac;
+}
+
+/* Home Section */
+
+.home {
+    background-color: #d7b899;
+    padding: 80px 20px;
+}
+
+.home h2 {
+    font-size: 35px;
+}
+
+.home p {
+    font-size: 18px;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    background-color: #4b2e20;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Common Sections */
+
+section {
+    padding: 45px 20px;
+}
+
+h2 {
+    color: #4b2e20;
+}
+
+/* Why Choose Us */
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* Coffee Menu */
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.coffee {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #00000015;
+}
+
+.coffee h3 {
+    color: #795548;
+}
+
+.coffee h4 {
+    color: #a0522d;
+}
+
+/* Offers */
+
+.offers {
+    background-color: #d7b899;
+    padding: 50px 20px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #4b2e20;
+    color: white;
+    padding: 20px;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 600px) {
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .home h2 {
+        font-size: 25px;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coffee {
+        width: 90%;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+}
+
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f5e6d3;
+}
+
+.contact h2 {
+    color: #5c3317;
+    margin-bottom: 10px;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.contact button {
+    background: #5c3317;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #8b5a2b;
+}
